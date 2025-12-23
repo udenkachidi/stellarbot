@@ -4,19 +4,14 @@ const StellarSdk = require('stellar-sdk');
 const PI_HORIZON = 'https://api.mainnet.minepi.com';
 const PI_NETWORK = 'Pi Network';
 
-// Your actual secret key from before
-const secretKey = 'SD3LZRIHS3W57YWHIL2S62EAFFP2FDLO75AQJKCUHLBMND4ZBTCUCMSO';
+const secretKey = 'ADD_SKEY';
 
-// Destination public key (unchanged)
-const destinationPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const destinationPublicKey = 'ADD_PKEY';
 
-// Target unlock time you gave before (Lagos local time)
 const TARGET_TIME = '03:18:11';
 
-// Fee per operation in Pi (from previous discussions)
 const CUSTOM_FEE_PI = 0.03;
 
-// Flooding attempts count from your last setting
 const SEND_ATTEMPTS = 1000;
 
 // Convert fee in Pi to stroops (1 Pi = 10 million stroops)
@@ -165,3 +160,4 @@ function generateRandomPublicKey() {
   const kp = StellarSdk.Keypair.fromRawEd25519Seed(randSeed);
   return kp.publicKey();
 }
+
