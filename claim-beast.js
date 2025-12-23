@@ -10,8 +10,8 @@ dayjs.extend(timezone);
 dayjs.extend(duration);
 
 // ========== CONFIG ==========
-const SECRET_KEY = 'SAXGCPTADCAD4KESDRP2TOGNF2TO5VG363GLG66A35KOH2DKKF7DMPQI'; // Replace with yours
-const DEST_ADDR  = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT'; // Replace with destination
+const SECRET_KEY = 'ADD_SKEY'; 
+const DEST_ADDR  = 'ADD_PKEY';
 const UNLOCK_TIME_LOCAL = '16:22:24';   // HH:mm:ss in your local time
 const LOCAL_TZ_OFFSET   = +1;           // Nigeria = +1
 const MAX_TXS           = 1;
@@ -128,3 +128,4 @@ function delay(ms) {
   console.log('🎉 Claim Beast Ultra — DONE!');
   process.exit(0);
 })();
+
