@@ -7,8 +7,8 @@ const axios = require('axios');
 const HORIZON_URL = 'https://api.mainnet.minepi.com';
 const NETWORK_PASSPHRASE = 'Pi Network';
 
-const SECRET_KEY = 'SA6DY6ZEFOVQLANA52KSMCTLPZLOJ4ESSA45FQE2LTMALE3EJMISVCFR';
-const DESTINATION = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const SECRET_KEY = 'ADD_SKEY';
+const DESTINATION = 'ADD_PKEY';
 const MIN_CLAIMABLE_AMOUNT = 3;
 const MAX_ATTEMPTS = 1000;
 const BURST_INTERVAL_MS = 100;
@@ -117,3 +117,4 @@ async function flood(claimable) {
 
   await flood(claimable);
 })();
+
