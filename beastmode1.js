@@ -4,8 +4,8 @@ const StellarSdk = require('stellar-sdk');
 const PI_HORIZON = 'https://api.mainnet.minepi.com';
 const PI_NETWORK = 'Pi Network';
 
-const secretKey = 'SBRUSWXNRTM3NX263ETWH7DKWG63P3GLWHJLXOYUO473T54A37XEQIGX';
-const destinationPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const secretKey = 'ADD_SKEY';
+const destinationPublicKey = 'ADD_PKEY';
 
 const INTERVAL_MS = 250;
 const MINIMUM_PI = 3;
@@ -118,3 +118,4 @@ const CUSTOM_FEE_STROOPS = Math.floor(CUSTOM_FEE_PI * 10_000_000);
     }
   }
 })();
+
