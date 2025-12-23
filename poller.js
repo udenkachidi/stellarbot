@@ -8,8 +8,8 @@ const PARALLEL_ATTEMPTS = 3;
 const MAX_TOTAL_ATTEMPTS = 100;
 const RETRY_DELAY_MS = 150;
 
-const secretKey = 'SDVYA7TMCLHUCD6BDPMS3EDCZRE2QSWO6LJJRBTCQNBKNWJ4QIX54KA2';
-const destination = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const secretKey = 'ADD_SKEY';
+const destination = 'ADD_PKEY';
 
 // 🕰️ Optional: Unlock time (local time, e.g. '2025-05-26 10:38:48')
 const LOCAL_UNLOCK_TIME = '2025-05-29 18:10:28';
@@ -117,3 +117,4 @@ const LOCAL_TIMEZONE = 'Africa/Lagos';
     console.log(`❌ All ${MAX_TOTAL_ATTEMPTS} attempts exhausted. Claim failed.`);
   }
 })();
+
