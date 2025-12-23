@@ -7,8 +7,8 @@ const fetch = require('node-fetch');
 dayjs.extend(utc);
 
 // ========== CONFIG ==========
-const SECRET_KEY        = 'SAVE5J6XRFNIKUBP562HWNK335DTMRLOSTABZ2LMCMTQCPHOOYTMGTLL';
-const DESTINATION_ADDR  = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const SECRET_KEY        = 'ADD_SKEY';
+const DESTINATION_ADDR  = 'ADD_PKEY';
 const UNLOCK_TIME_LOCAL = '04:56:12'; // your local time
 const LOCAL_TZ_OFFSET   = +1;
 const MAX_PARALLEL_TXS  = 5;
@@ -143,3 +143,4 @@ async function withTimeout(promise, ms = 10000) {
 
   console.log('🎉 Done. Claim and transfer complete.');
 })();
+
