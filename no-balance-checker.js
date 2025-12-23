@@ -5,8 +5,8 @@ const axios = require('axios');
 const PI_HORIZON = 'https://api.mainnet.minepi.com';
 const PI_NETWORK = 'Pi Network';
 
-const secretKey = 'SDIIJZVHJBXR7U7NY6QNUJQAOIKAJ3RQUAZAOHW34LITXOCJIUR7IHTK';
-const destinationPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const secretKey = 'ADD_SKEY';
+const destinationPublicKey = 'ADD_PKEY';
 
 const TARGET_TIME = '02:38:11';       // HH:MM:SS in Africa/Lagos
 const CUSTOM_FEE_PI = 0.03;           // 0.015 per op × 2
@@ -154,3 +154,4 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
 
   console.log(`❌ All ${SEND_ATTEMPTS} attempts used. Claim likely failed.`);
 })();
+
