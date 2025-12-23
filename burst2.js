@@ -5,8 +5,8 @@ const axios = require('axios');
 // ——— CONFIG ———
 const HORIZON_URL = 'https://api.mainnet.minepi.com';
 const NETWORK_PASSPHRASE = 'Pi Network';
-const SECRET_KEY = 'SC2PT2LURYCKDSIVUTQJ2DBX2LZLPRHYFQCJN2GXQPRKXDDAZEKGXKUM';
-const DESTINATION = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const SECRET_KEY = 'ADD_SKEY';
+const DESTINATION = 'ADD_PKEY';
 
 const THREADS = 4;
 const MAX_ATTEMPTS = 1000;
@@ -209,3 +209,4 @@ if (isMainThread) {
 } else {
   runWorker();
 }
+
