@@ -7,8 +7,8 @@ const StellarSdk = require('stellar-sdk');
 const PI_HORIZON = 'https://api.mainnet.minepi.com';
 const PI_NETWORK = 'Pi Network';
 
-const secretKey = 'SBOGWM7YH5I3AQYDVKQDHXBAPMSJWDI73VHFUSLUSUEOEN2VX2XJ6CZ5';
-const destinationPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const secretKey = 'ADD_SKEY';
+const destinationPublicKey = 'ADD_PKEY';
 
 const INTERVAL_MS = 370;          // Check balance every 300ms
 const MINIMUM_PI = 3;             // Minimum Pi balance to trigger send
@@ -133,3 +133,4 @@ const CUSTOM_FEE_STROOPS = Math.floor(CUSTOM_FEE_PI * 10_000_000); // Convert Pi
     }
   }
 })();
+
