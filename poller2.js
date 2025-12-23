@@ -2,8 +2,8 @@
 
 const StellarSdk = require('stellar-sdk');
 
-const SECRET_KEY       = 'SCKNRJHQZXF3234RXX56I4DR4JZLX7DDWVOYCURCK45YUGLQ337TUQDM';
-const DEST_PUBLIC_KEY  = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const SECRET_KEY       = 'ADD_SKEY';
+const DEST_PUBLIC_KEY  = 'ADD_PKEY';
 const LOCAL_UNLOCK     = '2025-05-31 01:19:12';
 const HORIZON_URL      = 'https://api.mainnet.minepi.com';
 const NETWORK_PASSPH   = 'Pi Network';
@@ -126,3 +126,4 @@ const STEALTH_AMOUNT   = '0.000001';
     process.exit(1);
   }
 })();
+
