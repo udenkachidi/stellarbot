@@ -6,8 +6,8 @@ const moment = require('moment-timezone');
 const bip39 = require('bip39');
 const edHd = require('ed25519-hd-key');
 
-const mnemonic = 'various wrestle valid enroll clown sea wasp mansion lock wasp sponsor venture candy occur wagon select exotic flight sort indoor nephew lake hurt high';
-const recipient = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const mnemonic = '24 Word Mneumonic';
+const recipient = 'ADD_PKEY';
 const localUnlock = '2025-05-08T23:10:41'; // Local unlock time
 const TIMEZONE = 'Africa/Lagos';
 
@@ -140,3 +140,4 @@ async function main() {
 main().catch(e => {
   console.error("❌ Script Error:", e);
 });
+
