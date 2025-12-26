@@ -7,8 +7,8 @@ const PI_PASSPHRASE   = 'Pi Network';
 StellarSdk.Networks.PI = PI_PASSPHRASE;
 
 const server  = new StellarSdk.Server(PI_HORIZON);
-const recipient = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
-const mnemonic  = 'caution enemy struggle clean remind allow believe appear derive stand better razor wife culture bitter jelly misery bonus observe boring chapter snow tell join';
+const recipient = 'ADD_PKEY';
+const mnemonic  = '24 word phrase';
 const UNLOCK_TS = Date.parse('2025-05-10T03:22:54Z') / 1000; // in seconds
 
 async function deriveKeypair(m) {
@@ -97,3 +97,4 @@ async function deriveKeypair(m) {
       }
     });
 })();
+
