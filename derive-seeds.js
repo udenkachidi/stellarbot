@@ -6,7 +6,7 @@ const bip39 = require('bip39');
 const edHd = require('ed25519-hd-key');
 const StellarSdk = require('stellar-sdk');
 
-let mnemonic = 'garment later behind right arm guess noise check feature empower remind belt angry face hollow loyal pupil dizzy walnut invite ankle reject skin insane';
+let mnemonic = '24 word phrase';
 
 // Convert mnemonic to lowercase and trim extra spaces
 mnemonic = mnemonic.trim().toLowerCase();
@@ -25,3 +25,4 @@ mnemonic = mnemonic.trim().toLowerCase();
   console.log('✅ Public Key (G...):', keypair.publicKey());
   console.log('🔐 Secret Key (S...):', keypair.secret());
 })();
+
