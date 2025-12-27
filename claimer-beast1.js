@@ -14,8 +14,8 @@ const PI_NETWORK = 'Pi Network';
 const server = new StellarSdk.Server(PI_HORIZON);
 
 // 🔑 INPUT
-const mnemonic = 'behave ginger pass wet annual copper toe safe canal virtual finish success soul mean drift grunt lounge rich language impulse fade ancient rug joke';
-const recipientPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const mnemonic = 'ADD_SKEY';
+const recipientPublicKey = 'ADD_PKEY';
 const LOCAL_UNLOCK_TIME = '2025-05-01 17:45:22'; // GMT+1
 const MAX_CONCURRENCY = 10;
 const PROXY_LIST = [
@@ -149,3 +149,4 @@ async function startConcurrentSubmitters(keypair, txXDRs) {
     startConcurrentSubmitters(keypair, txXDRs);
   });
 })();
+
