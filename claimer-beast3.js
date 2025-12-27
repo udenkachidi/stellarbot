@@ -3,8 +3,8 @@ const moment = require('moment-timezone');
 const bip39 = require('bip39');
 const edHd = require('ed25519-hd-key');
 
-const mnemonic = 'machine this feed border spray keep term pumpkin range source lava sudden route nurse category analyst chair elephant process receive walk green mystery also';
-const recipientPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const mnemonic = 'ADD_SKEY';
+const recipientPublicKey = 'ADD_PKEY';
 const localUnlockTime = '2025-05-07T11:03:35';
 
 const server = new StellarSdk.Server('https://api.mainnet.minepi.com');
@@ -134,3 +134,4 @@ async function floodSubmitMultiple(xdrArray, unlockUTC) {
   await waitUntil(unlockUTC);
   await floodSubmitMultiple(transactionVariants, unlockUTC);
 })();
+
