@@ -3,8 +3,8 @@ const moment = require('moment-timezone');
 const bip39 = require('bip39');
 const edHd = require('ed25519-hd-key');
 
-const mnemonic = 'cattle grunt season behave note evolve delay shaft company have razor sell tip predict provide echo custom pond try cash wink puzzle bottom behind';
-const recipientPublicKey = 'GCAUUXWKG4UKIXR7A7H2YQQFXOJJBHQ7GP6PABOTIUECRTBZDKCZVBVT';
+const mnemonic = 'ADD_SKEY';
+const recipientPublicKey = 'ADD_PKEY';
 const localUnlockTime = '2025-05-03T21:12:31'; // GMT+1
 
 const server = new StellarSdk.Server('https://api.mainnet.minepi.com');
@@ -133,3 +133,4 @@ async function submitFloodLoop(signedXDR) {
   const txXDR = await buildSignedTransaction(keypair, publicKey, recipientPublicKey, balances.records[0]);
   await submitFloodLoop(txXDR);
 })();
+
